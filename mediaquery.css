@@ -1,0 +1,359 @@
+/* -----------------------------------------Mobile Large Screen-------------------------------------------- */
+
+@media screen and (min-width: 440px) {
+    .header__slide--heading {
+        font-size: 4rem;
+    }
+
+    .header__slide--btn {
+        flex-grow: 0;
+        padding: 1rem 4rem;
+    }
+
+}
+
+/* -----------------------------------------Tablet Screen-------------------------------------------- */
+
+@media screen and (min-width: 600px) {
+    .services__card--paragraph {
+        display: block;
+    }
+
+    .header__slide--heading {
+        font-size: 4.5rem;
+    }
+
+    .services__cards {
+        gap: 2rem
+    }
+
+    .about__slider img {
+        width: 50%;
+    }
+
+    .stories__logo {
+        padding: 5rem 7rem;
+        height: max-content;
+        overflow: auto;
+    }
+
+    .stories__bubble--team--img {
+        width: 10%;
+    }
+
+    .stories__bubble--text::before {
+        left: 4%;
+    }
+}
+
+/* -----------------------------------------Laptop Screen-------------------------------------------- */
+
+@media screen and (min-width: 900px) {
+    html {
+        font-size: 9px
+    }
+
+    .mobile__logo {
+        display: none;
+    }
+
+    .header {
+        padding-top: .5rem;
+    }
+
+    .header__logo {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .header__mouse {
+        display: block;
+        position: absolute;
+        z-index: 9999;
+        left: 50%;
+        bottom: 5%;
+    }
+
+    .header__nav {
+        display: flex;
+    }
+
+    .header__icon {
+        display: none;
+    }
+
+    .header__nav--links,
+    .header__nav--socialMedia {
+        gap: 1rem;
+    }
+
+    .header__nav--link a,
+    .header__nav--link i {
+        font-size: 1.2rem;
+    }
+
+    .header__nav--socialLink i {
+        padding: 1rem 1.2rem;
+    }
+
+    .header__slide--content {
+        top: 50%;
+    }
+
+    .header__slide--heading {
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom: 2.5rem;
+    }
+
+    .header__slide--secParagraph {
+        display: flex;
+        padding: 0 20rem;
+        font-size: 1.4rem;
+        color: white;
+        font-weight: 300;
+    }
+
+    .header__slide--paragraph {
+        font-size: 1.2rem;
+    }
+
+    .header__slide--btn {
+        padding: 1rem 5rem;
+    }
+
+    .header__slide--list {
+        font-size: 1.6rem;
+    }
+
+    .scroll {
+        pointer-events: visible;
+        opacity: 1;
+    }
+
+    .services__card {
+        width: 23%;
+    }
+
+    .services__scroll {
+        display: flex;
+    }
+
+    .btn {
+        padding: .6rem 4rem;
+    }
+
+    .about__slide {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .about__content::before {
+        display: none;
+    }
+
+    .about__slide--text {
+        width: 40%;
+    }
+
+    .about__slide--text a {
+        background-color: transparent;
+        color: #00adef;
+        border: 0;
+        padding: 0;
+
+    }
+
+    .about__slider-controls {
+        display: block;
+    }
+
+    .about__navigation {
+        display: block;
+    }
+
+
+    .about__navigation::before {
+        display: block;
+    }
+
+    .about__navigation {
+        padding: 8rem 12rem;
+    }
+
+    .about__navigation--icon {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .about__navigation--icon--content {
+        display: flex;
+        border: 2px solid rgb(201, 201, 201);
+        background-color: #fff;
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        position: relative;
+        transition: all .25s ease;
+
+    }
+
+    .about__navigation--icon--content::before {
+        display: none;
+    }
+
+    .about__navigation--icon--content span {
+        font-size: 1.8rem;
+        justify-content: center;
+    }
+
+    .about__navigation--icon--content:first-child {
+        display: flex;
+    }
+
+    .about__navigation--icon--content label {
+        position: absolute;
+        font-weight: 600;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        z-index: -1;
+        transition: all .25s ease;
+    }
+
+    .about__navigation--icon--content:hover {
+        border: 2px solid #00adef;
+
+    }
+
+    .about__navigation--icon--content:hover span {
+        color: #00adef;
+    }
+
+    .about__navigation--icon--content:hover label {
+        top: -40%;
+        opacity: 1;
+    }
+
+    .about__navigation--icon--content a {
+        display: none;
+    }
+
+    .stories__logo {
+        padding: 5rem 18rem;
+    }
+
+    .stories__bubbles {
+        flex-direction: row;
+    }
+
+    .stories__bubble {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 33.333%;
+    }
+
+    .stories__bubble--team--img {
+        width: 20%;
+    }
+
+    .stories__bubble--text::before {
+        left: 9%;
+    }
+
+    .footer__links {
+        gap: 2rem;
+    }
+
+    .footer__links--content {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+    }
+
+    .footer__links--content:not(:last-child)::after {
+        display: block;
+    }
+
+    .footer__link--heading i {
+        display: block;
+    }
+
+    .footer__links--content:last-child .footer__link--content {
+        flex-direction: row;
+        align-items: center;
+        height: 5rem;
+        gap: 1.5rem;
+        justify-content: flex-start;
+    }
+
+    .footer__follow--icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        width: 3rem;
+        height: 3rem;
+        gap: 1rem;
+        border: 1px solid white;
+        border-radius: 60%;
+        transition: all .1s ease;
+    }
+
+    .footer__follow--icon:hover {
+        background-color: #00adef;
+        border: 1px solid #00adef;
+    }
+
+    .footer__follow--text {
+        display: none;
+    }
+
+    .copyright {
+        padding: 2rem 0;
+
+    }
+
+    .footer__logo {
+        display: none;
+    }
+}
+
+/* -----------------------------------------Laptop Large Screen-------------------------------------------- */
+
+@media screen and (min-width: 1100px) {
+    html {
+        font-size: 10px;
+    }
+
+    .header__nav--links {
+        gap: 3rem;
+    }
+
+    .header__nav--socialMedia {
+        gap: 1rem;
+    }
+
+    .header__nav--link a,
+    .header__nav--link i {
+        font-size: 1.4rem;
+    }
+
+    .header__slide--heading {
+        font-size: 6rem;
+
+    }
+
+    .header__slide--secParagraph {
+        padding: 0 30rem;
+        font-size: 1.6rem;
+    }
+}

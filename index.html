@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="/your-path-to-uicons/css/uicons-rounded-regular.css" rel="stylesheet">
+    <link href="/your-path-to-uicons/css/uicons-rounded-bold.css" rel="stylesheet">
+    <link href="/your-path-to-uicons/css/uicons-rounded-solid.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+</head>
+
+<body>
+
+    <!-- ------------------------------Header Section------------------------------------- -->
+    <header class="header">
+        <!-- ---------------------------Mobile screen menu icon--------------------------- -->
+        <span class="header__icon">
+            <i class="fa-solid fa-bars"></i>
+        </span>
+        <!-- ----------------------------Header Nav links--------------------------------- -->
+        <nav class="header__nav">
+            <img src="/images/logo.png" class="header__logo" />
+            <ul class="header__nav--links">
+                <div class="header__nav--dropdown">
+                    <li class="header__nav--link"><a href="#">Feature <i class="fas fa-angle-down"></i></a>
+                        <div class="header__nav--dropdown-content">
+                            <a href="#">Feature 1</a>
+                            <a href="#">Feature 2</a>
+                            <a href="#">Feature 3</a>
+                          </div>
+                    </li>
+                  </div>
+                  <div class="header__nav--dropdown">
+                    <li class="header__nav--link"><a href="#">Comapny <i class="fas fa-angle-down"></i></a>
+                        <div class="header__nav--dropdown-content">
+                            <a href="#">Company 1</a>
+                            <a href="#">Company 2</a>
+                            <a href="#">Company 3</a>
+                          </div>
+                    </li>
+                  </div>
+                <li class="header__nav--link"><a href="#">Demo</a></li>
+                <li class="header__nav--link"><a href="#">Success stories</a></li>
+                <li class="header__nav--link"><a href="#">Contact us</a></li>
+            </ul>
+            <!-- --------------------------------Header social media links---------------------------------- -->
+            <ul class="header__nav--socialMedia">
+                <li><a href="#" class="header__nav--socialLink"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#" class="header__nav--socialLink"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#" class="header__nav--socialLink"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" class="header__nav--socialLink"><i class="fas fa-comment"></i></a></li>
+            </ul>
+        </nav>
+        <!-- -----------------------------------Header mobile logo------------------------------------------ -->
+        <img src="/images/logo.png" class="mobile__logo" />
+        <!-- ----------------------------------Header mouse image------------------------------------------- -->
+        <img src="/images/mouse.png" class="header__mouse" />
+        <!-- ----------------------------------Header Slides------------------------------------------------- -->
+        <div class="header__slides">
+            <div class="header__slide" style="background-image: url(/images/Main\ Slider.png);" id="slide1">
+                <div class="header__slide--content">
+                    <h1 class="header__slide--heading">Welcome to CompanyIQ</h1>
+                    <p class="header__slide--paragraph">Lower attrition by connecting your employees through CompanyIQ
+                    </p>
+                    <p class="header__slide--secParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate
+                    </p>
+                    <ul class="header__slide--btns">
+                        <li class="header__slide--btn secondary"><a class="header__slide--list" href="#">View More</a>
+                        </li>
+                        <li class="header__slide--btn primary"><a class="header__slide--list" href="#">Report</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__slide" style="background-image: url(/images/Main\ Slider2.png);" id="slide2">
+                <div class="header__slide--content">
+                    <h1 class="header__slide--heading">Welcome to CompanyIQ</h1>
+                    <p class="header__slide--paragraph">Lower attrition by connecting your employees through CompanyIQ
+                    </p>
+                    <p class="header__slide--secParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate
+                    </p>
+                    <ul class="header__slide--btns">
+                        <li class="header__slide--btn secondary"><a class="header__slide--list" href="#">View More</a>
+                        </li>
+                        <li class="header__slide--btn primary"><a class="header__slide--list" href="#">Report</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__slide" style="background-image: url(/images/Main\ Slider3.png);" id="slide3">
+                <div class="header__slide--content">
+                    <h1 class="header__slide--heading">Welcome to CompanyIQ</h1>
+                    <p class="header__slide--paragraph">Lower attrition by connecting your employees through CompanyIQ
+                    </p>
+                    <p class="header__slide--secParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate
+                    </p>
+                    <ul class="header__slide--btns">
+                        <li class="header__slide--btn secondary"><a class="header__slide--list" href="#">View More</a>
+                        </li>
+                        <li class="header__slide--btn primary"><a class="header__slide--list" href="#">Report</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------Header Slides Scroll---------------------------- -->
+        <div class="scroll">
+            <a href="#slide1"><span></span></a>
+            <a href="#slide2"><span></span></a>
+            <a href="#slide3"><span></span></a>
+        </div>
+    </header>
+    <!-- -----------------------------Services Section---------------------------------- -->
+    <section class="services">
+        <div class="container">
+            <!-- ----------------------Services heading--------------------------------- -->
+            <div class="heading__content">
+                <h2 class="heading1">Our <span>Services</span></h2>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!-- -----------------------Services Cards---------------------------------- -->
+            <div class="services__cards">
+                <div class="services__card">
+                    <div class="services__card--img">
+                        <img src="/images/ico-01.png" />
+                    </div>
+                    <div class="services__card--text">
+                        <h1 class="services__card--heading">Voice in their organization</h1>
+                        <p class="services__card--paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Totam quaerat recusandae quis</p>
+                    </div>
+                    <button class="btn btn__primary">Read More</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__card--img">
+                        <img src="/images/ico-02.png" />
+                    </div>
+                    <div class="services__card--text">
+                        <h1 class="services__card--heading">Voice in their organization</h1>
+                        <p class="services__card--paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Totam quaerat recusandae quis</p>
+                    </div>
+                    <button class="btn btn__primary">Read More</button>
+
+                </div>
+                <div class="services__card">
+                    <div class="services__card--img">
+                        <img src="/images/ico-03.png" />
+                    </div>
+                    <div class="services__card--text">
+                        <h1 class="services__card--heading">Voice in their organization</h1>
+                        <p class="services__card--paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Totam quaerat recusandae quis</p>
+                    </div>
+                    <button class="btn btn__primary">Read More</button>
+                </div>
+                <div class="services__card">
+                    <div class="services__card--img">
+                        <img src="/images/ico-04.png" />
+                    </div>
+                    <div class="services__card--text">
+                        <h1 class="services__card--heading">Voice in their organization</h1>
+                        <p class="services__card--paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Totam quaerat recusandae quis</p>
+                    </div>
+                    <button class="btn btn__primary">Read More</button>
+                </div>
+            </div>
+            <!-- ------------------------Services Scroll--------------------------------- -->
+            <div class="scroll services__scroll">
+                <a href="#slide1"><span></span></a>
+                <a href="#slide2"><span></span></a>
+                <a href="#slide3"><span></span></a>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------About Section---------------------------------- -->
+    <section class="about">
+        <div class="container">
+            <!-- -------------------------About Heading ------------------------------------>
+            <div class="heading__content">
+                <h2 class="heading1">About<span> Application</span></h2>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!-- -------------------------About Content--------------------------------- -->
+            <div class="about__content">
+                <div class="about__slider--container">
+                    <div class="about__slider-controls"><span><img src="/images/greater.png" /></span>
+                    </div>
+                    <!-- -------------------About Slider--------------------------------- -->
+                    <div class="about__slider">
+                        <div class="about__slide">
+                            <div class="about__slide--text">
+                                <span class="about__slide--heading"><i class="fa-solid fa-desktop"></i>Task</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odio, ipsam
+                                    accusantium esse culpa</p>
+                                <a href="#">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                            <img src="/images/mobile2.png" alt="Slide 1">
+                        </div>
+                    </div>
+                    <div class="about__slider-controls">
+                        <span><img src="/images/less.png" /></span>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------------------------About Options-------------------------------------- -->
+            <div class="about__navigation">
+                <div class="about__navigation--icon">
+                    <div class="about__navigation--icon--content">
+                        <span><i class="fa-solid fa-desktop"></i><label>Task</label><a href="#">+</a></span>
+                    </div>
+                    <div class="about__navigation--icon--content">
+                        <span><i class="fa-solid fa-building"></i><label>Library</label><a href="#">+</a></span>
+                    </div>
+                    <div class="about__navigation--icon--content">
+                        <span><i class="fas fa-trophy"></i><label>Misson</label><a href="#">+</a></span>
+                    </div>
+                    <div class="about__navigation--icon--content">
+                        <span><i class="fa-solid fa-scissors"></i><label>Task</label><a href="#">+</a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------------------About Scroll------------------------------------ -->
+            <div class="scroll services__scroll">
+                <a href="#slide1"><span></span></a>
+                <a href="#slide2"><span></span></a>
+                <a href="#slide3"><span></span></a>
+                <a href="#slide4"><span></span></a>
+
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------Stories Section------------------------------------- -->
+    <section class="stories">
+        <div class="container">
+            <!-- -------------------------------Stories Heading------------------------------------- -->
+
+            <div class="heading__content">
+                <h2 class="heading1">Success <span>Stories</span></h2>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!-- --------------------------------Stories logos-------------------------------------- -->
+
+            <div class="stories__logo">
+                <div class="stories__logo--img">
+                    <img src="/images/aon.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/aon.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/sony.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/aon.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/sony.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/aon.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/sony.png" />
+                </div>
+                <div class="stories__logo--img">
+                    <img src="/images/aon.png" />
+                </div>
+            </div>
+            <!-- ------------------------------Stories Team Bubbles Messages---------------------------- -->
+            <div class="stories__bubbles">
+                <div class="stories__bubble">
+                    <div class="stories__bubble--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+                        inventore, cupiditate quia id velit voluptatem esse laborum voluptatum quasi consequuntur eos
+                        consequatur itaque voluptates veritatis fugiat excepturi. Minus, eligendi ratione!
+                    </div>
+                    <div class="stories__bubble--team">
+                        <div class="stories__bubble--team--img">
+                            <img src="/images/team1.jpg" />
+                        </div>
+                        <div class="stories__bubble--team--text">
+                            <h1>Kiran Ahmad</h1>
+                            <p>CEO, CompanyIQ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories__bubble">
+                    <div class="stories__bubble--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+                        inventore, cupiditate quia
+                    </div>
+                    <div class="stories__bubble--team">
+                        <div class="stories__bubble--team--img">
+                            <img src="/images/team1.jpg" />
+                        </div>
+                        <div class="stories__bubble--team--text">
+                            <h1>Kiran Ahmad</h1>
+                            <p>CEO, CompanyIQ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories__bubble">
+                    <div class="stories__bubble--text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
+                        inventore, cupiditate quia id velit voluptatem esse laborum voluptatum quasi consequuntur eos
+                        consequatur itaque voluptates veritatis fugiat excepturi. Minus, eligendi ratione!
+                    </div>
+                    <div class="stories__bubble--team">
+                        <div class="stories__bubble--team--img">
+                            <img src="/images/team1.jpg" />
+                        </div>
+                        <div class="stories__bubble--team--text">
+                            <h1>Kiran Ahmad</h1>
+                            <p>CEO, CompanyIQ</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <li class="stories__bubble--btn"><a class="header__slide--list primary" href="#">More Feedback</a></li>
+            <!-- ---------------------------Stories Slider Scroll------------------------------------- -->
+
+            <div class="scroll services__scroll">
+                <a href="#slide1"><span></span></a>
+                <a href="#slide2"><span></span></a>
+                <a href="#slide3"><span></span></a>
+                <a href="#slide4"><span></span></a>
+
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------Footer Section------------------------------------- -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__links">
+                <div class="footer__links--content">
+                    <div class="footer__link">
+                        <span class="footer__link--heading"><i class="fa-solid fa-link"></i>
+                            <h1>Quick Links</h1>
+                        </span>
+                        <ul class="footer__link--content">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Success stories</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__links--content">
+
+                    <div class="footer__link">
+                        <span class="footer__link--heading">
+                            <i class="fa-solid fa-gear"></i>
+                            <h1>Our Services</h1>
+                        </span>
+                        <ul class="footer__link--content">
+                            <li><a href="#">Library</a></li>
+                            <li><a href="#">Task</a></li>
+                            <li><a href="#">Application</a></li>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__links--content">
+
+                    <div class="footer__link">
+                        <span class="footer__link--heading"><i class="fa-solid fa-phone"></i>
+                            <h1>Contact</h1>
+                        </span>
+                        <ul class="footer__link--content">
+                            <li><a href="#">
+                                    <h4>Email:</h4>
+                                    <span>kiran@gmail.com</span>
+                                </a></li>
+                            <li><a href="#">
+                                    <h4>Address:</h4>
+                                    <p>happy valley kohat</p>
+                                    <p>kpk pakistan</p>
+                                    <p>street123</p>
+
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__links--content">
+
+                    <div class="footer__link">
+                        <span class="footer__link--heading"><i class="fa-solid fa-font-awesome"></i>
+                            <h1>Follow</h1>
+                        </span>
+                        <ul class="footer__link--content">
+                            <li><a href="#" class="footer__follow--link"><span class="footer__follow--icon"><i
+                                            class="fa-brands fa-facebook-f"></i></span> <span
+                                        class="footer__follow--text">facebook</span></a></li>
+                            <li><a href="#" class="footer__follow--link"><span class="footer__follow--icon"><i
+                                            class="fa-brands fa-linkedin-in"></i></span> <span
+                                        class="footer__follow--text">linkedin</span></a></li>
+                            <li><a href="#" class="footer__follow--link"><span class="footer__follow--icon"><i
+                                            class="fa-brands fa-twitter"></i></span>
+                                    <span class="footer__follow--text">twitter</span></a></li>
+                            <li><a href="#" class="footer__follow--link"><span class="footer__follow--icon"><i
+                                            class="fa-solid fa-message"></i></span>
+                                    <span class="footer__follow--text">chat</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><span><img src="/images/logo.png" class="footer__logo" />
+            </span>@2023 copyright.All right Reserved</div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            let totalSlides = 3;
+            let currentIndex = 1;
+            $('.header__slide').hide();
+            function showSlide(index) {
+                $('#slide' + index).show();
+                $('.scroll a span').css('background-color', '');
+                $('.scroll a').css(
+                    'border', ''
+                );
+
+                $('.scroll a[href="#slide' + index + '"]').css(
+                    'border', '1px solid #00adef'
+                );
+                $('.scroll a[href="#slide' + index + '"] span').css(
+                    'background-color', '#00adef',
+                );
+                $('.header__slide').eq(index - 1).fadeIn(3000).siblings().fadeOut(0);
+            }
+            function showNextSlide() {
+                showSlide(currentIndex);
+                currentIndex = (currentIndex % totalSlides) + 1;
+            }
+            showSlide(currentIndex);
+            setInterval(showNextSlide, 6000);
+            $('.scroll a').click(function (event) {
+                event.preventDefault();
+                let index = parseInt($(this).attr('href').slice(-1));
+                showSlide(index);
+                currentIndex = index;
+            });
+        });
+
+    </script>
+</body>
+
+</html>
